@@ -1,5 +1,5 @@
-import { Content } from 'src/application/entities/content';
-import { Notification } from 'src/application/entities/notification';
+import { Content } from '../entities/content';
+import { Notification } from '../entities/notification';
 
 interface SendNotificationRequest {
   recipientId: string;
