@@ -24,9 +24,23 @@ export class NotificationsController {
     await this.cancelNotification.execute({ notificationId: id });
   }
 
-  async countFromRecipient() {}
+  @Get('count/from/:recipientId')
+  async countFromRecipient(@Param('recipientId') recipientId: string) {
+    const { count } = await this.countRecipientNotifications.execute({
+      recipientId,
+    });
 
-  async getFromRecipient() {}
+    return { count };
+  }
+
+  @Get('from/:recipientId')
+  async getFromRecipient(@Param('recipientId') recipientId: string) {
+    const { notifications } = await this.getRecipientNotifications.execute({
+      recipientId,
+    });
+
+    return { notifications: notifications.map(NotificationViewModel.toHTTP) };
+  }
 
   @Patch(':id/read')
   async read(@Param('id') id: string) {
