@@ -12,7 +12,9 @@ const config: Config = {
   coverageDirectory: '../coverage',
   testEnvironment: 'node',
 
-  moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths),
+  moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths, {
+    prefix: '<rootDir>/',
+  }),
 };
 
 export default config;
