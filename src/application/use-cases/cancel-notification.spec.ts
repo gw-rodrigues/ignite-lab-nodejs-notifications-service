@@ -19,7 +19,7 @@ describe('Cancel notification', () => {
     );
   });
 
-  it('should be able to cancel a non existing Notification', async () => {
+  it('should not be able to cancel a non existing Notification', async () => {
     const notificationsRepository = new InMemoryNotificationsRepository();
     const cancelNotification = new CancelNotification(notificationsRepository);
 

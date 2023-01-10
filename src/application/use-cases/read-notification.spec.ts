@@ -19,7 +19,7 @@ describe('read notification', () => {
     );
   });
 
-  it('should be able to read a non existing Notification', async () => {
+  it('should not be able to read a non existing Notification', async () => {
     const notificationsRepository = new InMemoryNotificationsRepository();
     const readNotification = new ReadNotification(notificationsRepository);
 
