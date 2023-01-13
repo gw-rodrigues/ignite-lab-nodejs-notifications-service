@@ -6,8 +6,6 @@
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
 
-<p align="center">Build a scalable microservice with Node.js. Accelerate your backend evolution by building a modern application with Node.js, NestJS, Prisma, TypeScript, Redis, Kafka and more!</p>
-
 <p align="center">
 <a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
 <a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
@@ -21,7 +19,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+<p align="center">Build a scalable microservice with Node.js. Accelerate your backend evolution by building a modern application with Node.js, NestJS, Prisma, TypeScript, Redis, Kafka and more!</p>
 
 ## Installation
 
