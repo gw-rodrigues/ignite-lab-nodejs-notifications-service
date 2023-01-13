@@ -8,8 +8,6 @@
 
   <p align="center">Build a scalable microservice with Node.js. Accelerate your backend evolution by building a modern application with Node.js, NestJS, Prisma, TypeScript, Redis, Kafka and more!</p>
 
-    <p align="center">
-
 <a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
 <a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
 <a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
